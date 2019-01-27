@@ -1,0 +1,35 @@
+{
+  "name": "uibuilder",
+  "version": "1.0.0",
+  "description": "uibuilder with json",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rduman2002/uibuilder.git"
+  },
+  "keywords": [
+    "ui",
+    "builder",
+    "uilbuilder"
+  ],
+  "author": "Recep Duman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rduman2002/uibuilder/issues"
+  },
+  "homepage": "https://github.com/rduman2002/uibuilder#readme",
+  "devDependencies": {
+    "@types/pluralize": "0.0.29",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {
+    "pluralize": "^7.0.0"
+  }
+}
