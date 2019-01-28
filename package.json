@@ -2,8 +2,11 @@
   "name": "mat-uibuilder",
   "version": "1.0.1",
   "description": "uibuilder with json",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "test": "mocha --reporter spec",
     "build": "tsc"
